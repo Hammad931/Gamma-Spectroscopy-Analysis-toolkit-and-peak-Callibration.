@@ -1,0 +1,30 @@
+# Example configuration for `gamma-toolkit analyze`.
+#
+# Copy this file, point it at your own spectrum, and adjust the numbers to your
+# detector. Every value here is also the built-in default, except the reference
+# energies, which are specific to the calibration sources you used.
+
+[input]
+# Path to the spectrum to analyse. A relative path is resolved next to THIS
+# config file, so the file can be moved together with its data.
+spectrum_file = "../examples/example_spectrum.csv"
+
+[peak_detection]
+# Minimum prominence (in counts) for a maximum to be treated as a real peak.
+# Raise it if the continuum noise produces spurious detections.
+min_prominence = 200.0
+# Minimum separation between two detected peaks, in channels.
+min_distance = 20
+
+[fitting]
+# Half-width of the fitting window around each peak, in channels. It should be
+# a few times the expected peak width so some continuum is visible either side.
+window_half_width = 30
+
+[calibration]
+# Degree of the channel -> energy polynomial (1 = linear, 2 = quadratic).
+degree = 1
+# Known energies (keV) of the calibration lines. They are matched to the
+# detected peaks sorted by channel, so the NUMBER of entries here must equal
+# the number of peaks found. These three are the classic Cs-137 / Co-60 lines.
+reference_energies = [661.66, 1173.23, 1332.49]
