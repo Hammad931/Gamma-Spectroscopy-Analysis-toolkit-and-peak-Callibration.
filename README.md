@@ -1,4 +1,5 @@
 **Author: Hammad Rasheed
+
 Email: hammad.rasheed@studio.unibo.it**
 # Gamma-Spectroscopy Analysis Toolkit
 
