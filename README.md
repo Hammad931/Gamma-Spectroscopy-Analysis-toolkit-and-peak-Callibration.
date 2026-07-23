@@ -1,6 +1,6 @@
-**Author: Hammad Rasheed
+**Author: Hammad Rasheed**
 
-Email: hammad.rasheed@studio.unibo.it**
+**Email: hammad.rasheed@studio.unibo.it**
 # Gamma-Spectroscopy Analysis Toolkit
 
 A small, well-tested Python toolkit for the everyday tasks of gamma-ray
