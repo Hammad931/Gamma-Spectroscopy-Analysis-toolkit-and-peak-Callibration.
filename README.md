@@ -109,7 +109,3 @@ config/          an example TOML configuration
 examples/        a small, reproducible example spectrum
 docs/            tutorial, how-to, reference and explanation
 ```
-
-## Licence
-
-Released under the MIT Licence — see [LICENSE](LICENSE).
