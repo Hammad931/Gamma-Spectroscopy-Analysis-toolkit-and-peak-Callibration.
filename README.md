@@ -8,8 +8,7 @@ spectroscopy: finding photopeaks in a multichannel-analyser (MCA) spectrum,
 fitting them, calibrating channels to energy from known reference lines, and
 reporting the detector's energy resolution.
 
-The emphasis is on being **usable and reproducible by someone other than the
-author**: every step is a small, documented, independently testable function,
+Every step is a small, documented, independently testable function,
 and the whole workflow can be driven from a command line with a single
 configuration file.
 
