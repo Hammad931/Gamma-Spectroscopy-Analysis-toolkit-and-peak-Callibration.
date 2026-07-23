@@ -39,7 +39,7 @@ constraints are known.
 ## Installation
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/Hammad931/Gamma-Spectroscopy-Analysis-toolkit-and-peak-Callibration.>
 cd gamma-spectroscopy-toolkit
 pip install -e .
 ```
